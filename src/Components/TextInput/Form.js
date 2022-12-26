@@ -32,7 +32,7 @@ export default function TextInputForm() {
   };
 
   const handleChangeDate = (e) => {
-    setDate(e.target.value);
+    setDate(e);
   }
 
   return (

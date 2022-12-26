@@ -10,8 +10,8 @@ export default function DiaryTextInputDate(props) {
   return (
     <LocalizationProvider dateAdapter={AdapterDayjs}>
       <Stack 
-        spacing={3}
-        id='date'>
+        id='date'
+          >
         <DateTimePicker
           label="Date&Time picker"
           value={props.date}
